@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to Wish Box</h1>
+    <p>Here you can add your wish to the list</p>
+</div>
+
+<div>
+    <h4 class="display-6">@ViewBag.Message</h4>
+</div>
+
+<div>
+<form method="post">
+    <table>
+        <tr>
+            <td>Enter name of your wish:</td>
+            <td><input type="text" name="Name" /></td>
+        </tr>
+        <tr>
+            <td>Enter description to the wish:</td>
+            <td><input type="text" name="Description" /></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="Send"/></td>
+        </tr>
+    </table>
+</form>
+</div>

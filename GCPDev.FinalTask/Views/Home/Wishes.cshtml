@@ -1,0 +1,39 @@
+﻿@model List<GCPDev.FinalTask.Models.WishModel>
+@{
+    ViewData["Title"] = "Wish list";
+}
+<h1>@ViewData["Title"]</h1>
+
+<div>
+    <h4 class="display-6">@TempData["Message"]</h4>
+</div>
+
+<p>Here are you can see your wish list</p>
+
+<h2>Wishes:</h2>
+<form method="post" action="/Home/Delete">
+<table class="table table-boardered">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+       {
+           <tr>
+            <td>@item.Id</td>
+            <input type="hidden" value="@item.Id" name="Id" />
+            <td>@item.Name</td>
+            <input type="hidden" value="@item.Name" name="Name" />
+            <td>@item.Description</td>
+            <input type="hidden" value="@item.Description" name="Description" />
+@*            <td><a href="~/Home/Delete/@item.Id">Delete</a></td>*@
+            <td><input type="submit" value="Delete"/></td>
+        </tr>
+       }
+    </tbody>
+</table>
+</form>

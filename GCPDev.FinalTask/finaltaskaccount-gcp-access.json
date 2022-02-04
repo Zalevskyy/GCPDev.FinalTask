@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "seismic-machine-339613",
+  "private_key_id": "8acad1d3cbc4f24f1ffae7b587ff6a4b48a44e14",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCxei7HG0nKiJCY\nAzpWuSlGTXU1sqcIs81GRZH6bETuulMEB9iv60FhFvGFyvDXaiZ+vp74arjSHU6Q\nohCP2Aer5hE6l81w7fTh3IeA9GPps2gbOjQpNRAMdyRXw7horWLDmnXRBSnXKLlO\nYMa3IAUphDGZ2naG3H9PP9uvy3RlFy0a/fRPNYmPBFPP+i1a4xymqTgQfS7ScJiS\n4nQifONm0aHk8Wl1YxdMlMOkyKj++WVYG++PYBx5cdRH982ZMSQAdk9kqIJAlhdA\nawUdzhkMcZqmJd164Rn43k2JpH56+a2PDBKvt2+UKn0N7paH5cY02ZfMwIp6qFgF\nD2Vjzk7lAgMBAAECggEAJlX2Wz9Pe+5uT0upMxjpa7xpBEmcD4LpJRP7gYyYAjog\nmvcH7Q4D0BFI5+XLirhs6sVJqO7Cj+5RLWg4bB3VoGHAmHe4YnugARal9Wq010MP\nyovSvxDtb8ffg46tG31SX16Ssuzq2gU7q8y3N9C0lMBvh2R7ZEumO0vXrBwmPvx7\nOXeo6AYTAV/6M9Ya4a+lED/YOl9mAX8uZiSTutGExcEOh9tXLgel5YAoO69yajDj\n1JYuMRbJp4FM7lBT/r4gnbkVumb2RhTUzo+wwmdgMrwLGYobpTCYZEDfPvzU4NXe\nS8r77YxR5CSKUCSgde2qw4kX+NF5i4BSTSL3YTYZYQKBgQDttIpt7Nk5s4UMAnWK\nRkz63C/sloETuPLiVVLgSiYQsAN8YFDOvQKp87ILWeoP/ivG+drlKh0GK1GBe4WD\nZo3/GVVfODIz5Elkhm+hqJLGOigMoNw7Uqfqsx6AYv05+9S9IaJDqGDByMjYHini\nzMjIzX7R8uGd5Q0PwJth2FJnYQKBgQC/Ivt9rGtB+8SobIGN50gExvjCbtH6JMIq\ncRBumUM5GaCzfLfOKqypPQRzfsMy4q3RVolcsMDsiP/Jg0LDqn2T0rQsbMYm/buI\nIujFFivdTksPCLu+caheEA7T9SSQbrFKVBmP3r/VUB0l2Uli3QExAu/10x4P3vrW\nKvoo6XiKBQKBgQC3ZrXrzHNpzrXXp0oTLtyULTEYxKLAmdFkidqQzQUDmRqHazTN\n3g1hHXKAyZYLUttqATs/1zdfnCqd0bUYxhbG/T/eYNhzKy7pTcRxoUPlh9eArthd\nOQ/vyNW+zyF8DG5+oqW0uAQ3X/h+rv84SzKbo9m2mUQ0dBaY0c3RN3uU4QKBgG+g\nu6YbA41GwATpUgSRNbNsjS3o0QM5Ypis7b7aDbOUbxFEXoiuzaYNd8MIHnJihsdC\ntfiHVjUOkeybl2t07+BcZ1Omt1dgSpzoXm90UmvuZNHD9Pn1oTJGSJKrkg40R6C0\nWzV2Dy1Cm7NWIpD1p9N69q/n+5+jR3W7Jdys9fQNAoGBAIndrLFqlw+3sJhW4be1\nWmw2HDOY8xZvfpFrSMfx4OZjJng0zivd/WrRrpnp9YqacB9hHgFDicn90xmPXqu2\n5QmA1VHohQ+qbp+Khxsb6YcmFtb1ABPzPrslwF9gu9/kk0TiaFWeOrDSFlXY69c/\nGPjucBDsFFNX9N6AjxhIT1j8\n-----END PRIVATE KEY-----\n",
+  "client_email": "finaltaskaccount@seismic-machine-339613.iam.gserviceaccount.com",
+  "client_id": "107903965269770498706",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/finaltaskaccount%40seismic-machine-339613.iam.gserviceaccount.com"
+}

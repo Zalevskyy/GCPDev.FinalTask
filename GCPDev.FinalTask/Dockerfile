@@ -5,6 +5,10 @@ WORKDIR /app
 EXPOSE 80
 EXPOSE 443
 
+ENV ASPNETCORE_ENVIRONMENT="Development" \
+#  DefaultConnection="server=localhost;user=mysqladmin;database=gcpfinaltask;password=MySQLadmin325;port=3306" - local MySql instance
+	DefaultConnection="server=127.0.0.1;user=finaltaskaccount;database=gcpfinaltask;password=;port=3306"
+
 FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
 WORKDIR /src
 COPY ["GCPDev.FinalTask/GCPDev.FinalTask.csproj", "GCPDev.FinalTask/"]
